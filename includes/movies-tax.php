@@ -20,7 +20,7 @@ function jl_register_movies_tax() {
 		'show_ui'           => true,
 		'show_admin_column' => true,
 		'query_var'         => true,
-		'rewrite'           => array( 'slug' => 'genre' ),
+		'rewrite'           => array( 'slug' => 'movie' ),
 	);
 
 	register_taxonomy( 'movies', array( 'robot' ), $jl_movies_args );
